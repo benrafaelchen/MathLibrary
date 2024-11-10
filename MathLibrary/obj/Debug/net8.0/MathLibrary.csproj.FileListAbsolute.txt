@@ -1,0 +1,11 @@
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/bin/Debug/net8.0/MathLibrary.deps.json
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/bin/Debug/net8.0/MathLibrary.dll
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/bin/Debug/net8.0/MathLibrary.pdb
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.AssemblyInfoInputs.cache
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.AssemblyInfo.cs
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.csproj.CoreCompileInputs.cache
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.dll
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/refint/MathLibrary.dll
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.pdb
+/Users/bassii/Desktop/qa/MathLibrary/MathLibrary/obj/Debug/net8.0/ref/MathLibrary.dll
