@@ -10,55 +10,124 @@ namespace MathLibrary.Tests
         [Fact]
         public void Add_ShouldReturnCorrectSum()
         {
-            Assert.Equal(5, _calculator.Add(2, 3));
+            // Arrange
+            int a = 2;
+            int b = 3;
+
+            // Act
+            int result = _calculator.Add(a, b);
+
+            // Assert
+            Assert.Equal(5, result);
         }
 
         [Fact]
         public void Subtract_ShouldReturnCorrectDifference()
         {
-            Assert.Equal(1, _calculator.Subtract(3, 2));
+            // Arrange
+            int a = 3;
+            int b = 2;
+
+            // Act
+            int result = _calculator.Subtract(a, b);
+
+            // Assert
+            Assert.Equal(1, result);
         }
 
         [Fact]
         public void Multiply_ShouldReturnCorrectProduct()
         {
-            Assert.Equal(6, _calculator.Multiply(2, 3));
+            // Arrange
+            int a = 2;
+            int b = 3;
+
+            // Act
+            int result = _calculator.Multiply(a, b);
+
+            // Assert
+            Assert.Equal(6, result);
         }
 
         [Fact]
         public void Divide_ShouldReturnCorrectQuotient()
         {
-            Assert.Equal(2, _calculator.Divide(6, 3));
+            // Arrange
+            int a = 6;
+            int b = 3;
+
+            // Act
+            int result = _calculator.Divide(a, b);
+
+            // Assert
+            Assert.Equal(2, result);
         }
 
         [Fact]
         public void Divide_ByZero_ShouldThrowDivideByZeroException()
         {
-            Assert.Throws<DivideByZeroException>(() => _calculator.Divide(1, 0));
+            // Arrange
+            int a = 1;
+            int b = 0;
+
+            // Act & Assert
+            Assert.Throws<DivideByZeroException>(() => _calculator.Divide(a, b));
         }
 
         [Fact]
         public void Add_ShouldHandleLargeNumbers()
         {
-            Assert.Equal(int.MaxValue, _calculator.Add(int.MaxValue, 0));
+            // Arrange
+            int a = int.MaxValue;
+            int b = 0;
+
+            // Act
+            int result = _calculator.Add(a, b);
+
+            // Assert
+            Assert.Equal(int.MaxValue, result);
         }
 
         [Fact]
         public void Subtract_ShouldHandleNegativeResults()
         {
-            Assert.Equal(-1, _calculator.Subtract(0, 1));
+            // Arrange
+            int a = 0;
+            int b = 1;
+
+            // Act
+            int result = _calculator.Subtract(a, b);
+
+            // Assert
+            Assert.Equal(-1, result);
         }
 
         [Fact]
         public void Multiply_ShouldHandleZero()
         {
-            Assert.Equal(0, _calculator.Multiply(5, 0));
+            // Arrange
+            int a = 5;
+            int b = 0;
+
+            // Act
+            int result = _calculator.Multiply(a, b);
+
+            // Assert
+            Assert.Equal(0, result);
         }
 
         [Fact]
         public void Divide_ShouldHandleNegativeNumbers()
         {
-            Assert.Equal(-2, _calculator.Divide(-6, 3));
+            // Arrange
+            int a = -6;
+            int b = 3;
+
+            // Act
+            int result = _calculator.Divide(a, b);
+
+            // Assert
+            Assert.Equal(-2, result);
         }
     }
 }
